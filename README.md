@@ -82,12 +82,15 @@ Cosmos DB Query Copilot utilizes Azure OpenAI customized content filters to bloc
 <br>
 
 ## Privacy
+
 ### What data does Cosmos DB Query Copilot collect?
   * Cosmos DB Query Copilot relies on the database’s data schema and additional data to work. It collects data to provide the service, some of which is then retained for further analysis and product improvements. Cosmos DB Query Copilot processes the following data for individual users:
   * User Engagement Data: When you use Cosmos DB Query Copilot it collects usage information about events generated when interacting with the Query Copilot in Data Explorer.  These events include user edit actions like if suggestions are accepted or dismissed, and error and general usage data to identify metrics like latency and features engagement. This information may include personal data, such as pseudonymous identifiers.
   * Prompts: After receiving user input, Cosmos DB Query Copilot will construct complete prompt together with instructions, a few example queries, and then pass it to Azure OpenAI model.
   * Suggestions: A Suggestion is one or more lines of proposed text returned to Cosmos DB Query Copilot after a Prompt is received and processed by the AI-model. The suggestions are transmitted in real-time only, we won’t retain the suggestions. 
   * Feedback: We’ll collect and retain user feedback for analysis.
+
+<br>
 
 ### How might Cosmos DB Query Copilot use the data it collects?
   * User Engagement Data, Prompts, Suggestions and Feedback are used by Azure Cosmos DB to improve Cosmos DB Query Copilot and related services and to conduct product and academic research.
@@ -100,6 +103,8 @@ Cosmos DB Query Copilot utilizes Azure OpenAI customized content filters to bloc
     * Adding new features to support additional query scenarios.
     * Reranking model outputs and prompt engineering.
     * When processing Prompts and Suggestions, Azure Cosmos DB takes the protection measures described in [how is the transmitted data protected?](#how-is-the-transmitted-prompt-and-query-data-protected), and follows responsible practices in accordance with our privacy statement so that the use of your data to improve these models doesn't result in this data being shared with other Cosmos DB Query Copilot users.
+
+<br>
 
 ### How is the transmitted prompt and query data protected?
 Cosmos DB Query Copilot takes several measures to protect data including:
